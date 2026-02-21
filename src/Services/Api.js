@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 // Base URL for backend API
-const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://veer-tejaji-backend-production.up.railway.app';
+
 
 const api = axios.create({
   baseURL: BASE_URL,
