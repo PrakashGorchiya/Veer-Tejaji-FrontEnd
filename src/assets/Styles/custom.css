@@ -1,0 +1,26 @@
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('/hero.jpg') center/cover no-repeat;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+}
